@@ -420,6 +420,7 @@ body {
 }
 
 .back-button{
+  text-align: center;
   height: 30px;
   width: 80px;
   color: white;
@@ -455,7 +456,9 @@ body {
 /* ------------------------------------------------------------------------------------------------------   */
 
 /* Media Query  */
-@media (max-width: 768px) {
+
+
+@media (max-width: 980px) {
 
   .signUpLogin{
     top: 200px;
@@ -483,6 +486,7 @@ body {
   }
 
   .search-button {
+    font-size: 70%;
     width: 50px;
     height: 21px;
   }
@@ -554,6 +558,83 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0px 20%;
+  }
+}
+
+@media (max-width: 460px) {
+  .logo h1 {
+    font-size: 80%;
+  }
+  .search-button {
+    width: 50px;
+    height: 21px;
+  }
+  .search-input {
+    font-size: 50%;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+  .search-button {
+    font-size: 50%;
+    width: 40px;
+    height: 17px;
+  }
+  .login-signup-div button,
+  #logout-button {
+    width: 50px;
+    height: 20px;
+    font-size: 70%;
+  }
+  .country-dropdown{
+    padding-left: 0px;
+    font-size: 50%;
+  }
+ 
+  .country-div{
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .flag{
+    height: 80px;
+    width: 80px;
+  }
+
+  .country-name{
+    font-size:60%;
+  }
+
+  .flag-name-div{
+    height: 100px;
+  }
+
+  .country-flag{
+    height: 55px;
+  }
+  .countryName{
+    font-size: 80%;
+  }
+  .country-COA{
+    height: 55px;
+  }
+
+  .country-details {
+    margin:0px 0%;
+    font-size: small;
+  }
+
+  .countrylist-label{
+    height: 30px;
+    font-size: small;
+    margin: 0px 10%;
+  }
+
+  .back-button{
+    font-size: 80%;
+    width: 60px;
   }
 
 }
