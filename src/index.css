@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Hind:wght@500&family=Squada+One&family=Ubuntu&family=Ysabeau+SC:wght@500&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Hind', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: rgb(238, 236, 236);
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* SignUp & Login */
+
+#outerdivsignup{
+  height: 100vh;
+  background-image: url("https://wallpapers.com/images/hd/map-background-0idc9qmhuwn1ik1s.jpg");
+
+}
+.signUpLogin{
+  height: auto;
+  width: 300px;
+  position: relative;
+  top: 150px;
+  margin:auto;
+  background: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px black solid;
+  border-radius: 25px;
+  box-shadow: 1px 1px 20px 15px white ;
+}
+
+#signupform{
+  background-color: transparent;
+}
+
+#input{
+  height: 30px;
+  width: 250px;
+  margin: 10px 20px;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: 2px black solid;
+  border: none;
+  transition: 0.5s;
+}
+
+#input:focus{
+  transform: scale(1.05);
+}
+
+#submit{
+  height: 30px;
+  width: 150px;
+  margin-top: 5%; 
+  color: white;
+  background-color: black;
+  border: black solid 2px;
+  border-radius: 10px;
+  font-size: 100%;
+  font-weight: 800;
+}
+
+#submit:focus{
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  transform: scale(1.05);
+  color: black;
+  background-color:  white;
+  border: black solid 2px;
+}
+
+#signuplogo{
+  font-family: 'DM Serif Display', serif;
+  font-size: 200%;
+  font-weight: 500;
+  color: black;
+}
+
+#anchors{
+  color:black;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 600;
+}
+#anchors:focus{
+  color:black;
+}
+#hasornot{
+  color: black;
+  font-size: medium;
+  font-weight: 600;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* NavBar */
+
+.Navbar{
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.logo h1{
+  font-family: 'Squada One', cursive;
+  font-weight: 200;
+  font-size: 180%;
+}
+
+.search {
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+.search-input{
+  color: black;
+  background-color: rgb(190, 189, 189);
+  font-size: medium;
+  height: 35px;
+  width: 300px;
+  padding-left: 25px;
+  padding-right: 65px;
+  border-radius: 100px;
+  border: none;
+}
+
+.search-input:focus{
+  outline: none;
+}
+
+.search-button{
+  height: 29px;
+  width: 60px;
+  position:  absolute;
+  right: 1%;
+  bottom: 8%;
+  border: none;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.search-button:focus{
+  outline: none;
+  background-color:rgb(72, 71, 71);
+  border: 3px black solid;
+}
+
+.search-button:hover{
+  outline: none;
+  background-color: rgb(72, 71, 71) ;
+  border: 3px black solid;
+}
+
+.search-button a{
+  text-decoration: none;
+  color: white;
+}
+
+.login-signup-div button,#logout-button{
+  width: 80px;
+  height: 30px;
+  font-size: large;
+  font-weight: 600;
+}
+
+#signup-button1 {
+  color: rgb(190, 189, 189);
+  background-color: black;
+  border: rgb(190, 189, 189) 2px solid;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#login-button2 {
+  color: black;
+  background-color: rgb(190, 189, 189);
+  border: rgb(190, 189, 189) 2px solid;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#signup-button1:hover {
+  color: black;
+  background-color: rgb(190, 189, 189);
+  border: black 2px solid;
+  box-shadow: 0px 0px 10px 5px white ;
+}
+
+#login-button2:hover {
+  color: rgb(190, 189, 189);
+  background-color: black;
+  border: rgb(190, 189, 189) 2px solid;
+  box-shadow: 0px 0px 10px 5px white ;
+
+}
+
+#logout-button{
+  color: black;
+  background-color: rgb(190, 189, 189);
+  border: rgb(190, 189, 189) 2px solid;
+  border-radius: 20px ;
+}
+
+#logout-button:hover{
+  color: rgb(190, 189, 189);
+  background-color: black;
+  border: rgb(190, 189, 189) 2px solid;
+  box-shadow: 0px 0px 10px 5px white ;
+}
+
+.country-dropdown{
+  position: relative;
+}
+.country-dropdown {
+  position: absolute;
+  /* top: calc(100% + 10px); */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  width: 300px;
+  background-color: #f6f0f0;
+  padding-left: 30px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.country-dropdown div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-dropdown div p {
+  margin: 5px;
+  padding: 5px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.country-dropdown div p:hover {
+  background-color: #c0c0c0;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* Home */
+
+.home-div {
+  display: inline-block;
+}
+.world-image {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.explore-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: black;
+  background-color: rgb(190, 189, 189);
+  font-size:150%;
+  height: 45px;
+  width: 280px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Bree Serif', serif;
+  box-shadow: 1px 1px 10px 4px white ;
+  transition: 0.2s;
+}
+
+.explore-button:hover,.explore-button:active{
+  color: white;
+  background-color: rgb(43, 43, 43);
+  box-shadow: 0px 0px 20px 15px white ;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* Loader */
+
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+/* All Countries */
+
+.all-countries{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.country-div{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  transition: 0.2s linear;
+}
+
+.country-div:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 4px black;
+}
+
+.flag{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.country-name{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:large;
+  font-weight: 600;
+}
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* Country Details */
+.country-main-div {
+  border: 5px solid #ccc;
+  padding: 20px;
+  margin: 0 auto; 
+}
+
+.flag-name-div{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* margin: 20px 20% 0px 20%; */
+}
+
+.country-flag{
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.countryName{
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: xx-large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.country-COA{
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.country-details {
+  margin:0px 20%;
+  padding: 10px;
+}
+
+.country-details > div {
+  margin-bottom: 10px;
+}
+
+.country-details div:first-child {
+  text-align: center;
+}
+
+.country-details span:first-child {
+  font-weight: bold;
+}
+
+.country-details a {
+  color: blue;
+  text-decoration: none;
+}
+
+.country-details a:hover {
+  text-decoration: underline;
+}
+
+.back-button-div{
+  text-align: center;
+}
+
+.back-button{
+  height: 30px;
+  width: 80px;
+  color: white;
+  background-color: black;
+  font-size: large;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+.back-button:hover{
+  background-color: rgb(72, 71, 71) ;
+  border: 3px black solid;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* Country List */
+
+.countrylist-div{
+  margin-top: 20px;
+}
+
+.countrylist-label{
+  height: 50px;
+  color: white;
+  background-color: black;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20%;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------   */
+
+/* Media Query  */
+@media (max-width: 768px) {
+
+  .signUpLogin{
+    top: 200px;
+  }
+
+  .Navbar {
+    padding: 0px 20px;
+  }
+
+  .logo h1 {
+    font-size: 100%;
+    font-weight: 100;
+  }
+
+  .search {
+    width: 30%;
+  }
+
+  .search-input {
+    font-size: 70%;
+    width: 100%;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+
+  .search-button {
+    width: 50px;
+    height: 21px;
+  }
+
+  .login-signup-div button,
+  #logout-button {
+    width: 60px;
+    height: 25px;
+    font-size: small;
+  }
+  .country-dropdown{
+    width: 30%;
+    padding-left: 0px;
+    font-size: 70%;
+  }
+  .country-dropdown div p{
+    margin: none;
+    padding: none;
+  }
+  
+  .country-div{
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .country-div:hover{
+    transform: scale(1);
+    box-shadow: 0px 0px 0px 0px black;
+  }
+
+  .flag{
+    height: 100px;
+    width: 100px;
+  }
+
+  .country-name{
+    font-size:small;
+    font-weight: 600;
+  }
+
+  .flag-name-div{
+    height: 140px;
+  }
+
+  .country-flag{
+    height: 70px;
+    top: 50%;
+    left: 20%;
+  }
+  .countryName{
+    font-size: large;
+    top: 50%;
+  }
+  .country-COA{
+    height: 70px;
+    top: 50%;
+  }
+
+  .country-details {
+    margin:0px 10%;
+  }
+
+  .countrylist-label{
+    height: 50px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20%;
+  }
+
+}
